@@ -1,0 +1,14 @@
+---
+output: rmarkdown::html_vignette
+---
+
+```{css, echo=FALSE, eval = TRUE}
+.my-class {
+  background-color: red;
+}
+```
+
+
+```{r select1, class.source = "my-class"}
+print("Hello there")
+```
